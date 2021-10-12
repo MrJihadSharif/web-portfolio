@@ -1,7 +1,8 @@
 body{
 font-family: sans-serif;
 margin: 0px;
-
+height: 2000px;
+width: 1073px;
 }
 
 
@@ -81,7 +82,7 @@ width: 80%;
 }
 
 
-.experience-area{
+#exp-area{
   
 }
 
@@ -89,25 +90,34 @@ width: 80%;
 #experience-area-id-one{
 
    text-align: center;
+  
+
 
 }
 #experience-area-id-two{
 
-    margin: 10px 50px 10px 125px;
+    margin: 100px 50px 10px 125px;
     width: 30%;
    height: 400px;
    padding: 10px 20px 10px 20px;
-   background-image: url(images/exp-bg.png);
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg , rgb(47, 189, 255) , rgb(76, 0, 255)) ;
+   border-image-slice: 1;
 
-   background-repeat: no-repeat;
+   background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
   
 }
 #experience-area-id-three{
 
-    margin: 10px 0px 10px 125px;
+    margin: 100px 0px 10px 125px;
     width: 30%;
     height: 400px;
     padding: 10px 20px 10px 20px;
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg , greenyellow , orange) ;
+    border-image-slice: 1;
     background-image: url(images/exp-bg.png);
 
     background-repeat: no-repeat;
@@ -117,4 +127,8 @@ width: 80%;
    
     box-shadow: 10px 10px  40px grey;
     border-radius: 10px;
+}
+#footerone{
+
+    text-align: center;
 }
